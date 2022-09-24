@@ -1,0 +1,28 @@
+.menu-topo ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.menu-topo ul li {
+  list-style: none;
+  padding: 0 10px;
+  border-right: solid 2px #39bbc7;
+}
+
+.menu-topo li:last-child {
+  border-right: none;
+}
+
+.menu-topo ul li a {
+  font-size: .8rem;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .menu-topo ul {
+    justify-content: center;
+  }
+}

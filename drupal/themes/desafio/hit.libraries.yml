@@ -1,0 +1,29 @@
+# hit.libraries.yml
+# Arquivo de configurações de libs usadas no tema,
+# como css e javascript, necessário para que estes
+# tipos de arquivos sejam reconhecidos e servidos
+# corretamente pelo framework.
+#
+# author Diego Medeiros
+# version 1.0
+# copyright hit-digital 2022.
+
+desafio-css:
+  version: 1.0
+  css:
+    theme:
+      # Para os componentes do header
+      css/header/menu-topo.css: {}
+      css/header/navbar.css: {}
+      # Para os componentes dos demais arquivos
+      css/style.css: {}
+
+desafio-js:
+  version: 1.0
+  js:
+    # Para eventos das demais arquivos
+    js/app.js: {}
+
+   
+    
+   

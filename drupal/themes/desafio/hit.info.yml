@@ -1,0 +1,25 @@
+# hit.info.yml
+# Arquivo de configurações básicas do tema, necessário
+# para que o tema seja reconhecido pelo framework.
+# author 
+# version 1.0
+# copyright hit 2022.
+
+name: Hit Drupal
+description: Tema para o desafio Hit Digital
+type: theme
+version: 1.0.0
+project: 'Hit Digital'
+core_version_requirement: ^8 || ^9
+base theme: classy
+libraries:
+  - hit/desafio-css
+  - hit/desafio-js
+
+regions:
+  menuTopo: 'Menu Topo'
+  menuMain: 'Principal'
+  content: 'conteudo'
+  publicacoes: 'Publicacoes'
+  form: 'Formulario'
+

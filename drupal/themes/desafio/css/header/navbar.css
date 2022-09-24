@@ -1,0 +1,89 @@
+.hambtn {
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.menu-overlay {
+  width: 100%;
+  position: absolute;
+  top: 45;
+  left: 0;
+  overflow-y: hidden;
+  -webkit-transition: all 0.55s ease;
+  -moz-transition: all 0.55s ease;
+  -ms-transition: all 0.55s ease;
+  -o-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+  z-index: 100;
+}
+
+/*----------------------------*/
+/*CONTAINER GERAL*/
+.container-header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*----------------------------*/
+/*LOGOS*/
+.logo-principal img {
+  width: 170px;
+  padding: 10px 0;
+}
+
+/*----------------------------*/
+/*REDES SOCIAIS*/
+
+.container-social {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.redes-sociais-menu {
+  gap: 20px;
+}
+
+.instagram-sup {
+  background: url("../../img/sm_instagram-ft.svg") no-repeat;
+  background-size: cover;
+}
+.facebook-sup {
+  background: url("../../img/sm_facebook-ft.svg") no-repeat;
+  background-size: cover;
+}
+.twitter-sup {
+  background: url("../../img/sm_twitter-ft.svg") no-repeat;
+  background-size: cover;
+}
+.youtube-sup {
+  background: url("../../img/sm_youtube-ft.svg") no-repeat;
+  background-size: cover;
+}
+
+.icons {
+  width: 17px;
+  height: 17px;
+  text-indent: -9999px;
+  display: block;
+}
+
+/*----------------------------*/
+/*RESPONSOVIDADE*/
+@media (max-width: 1160px) {
+  .logo-principal img {
+    height: 65px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-header { 
+    padding: 60px;
+  }
+}
